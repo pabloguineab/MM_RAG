@@ -1,8 +1,6 @@
 import streamlit as st
 import openai
 
-openai_api_key = st.secrets["openai"]["OPENAI_API_KEY"]
-
 st.title("ChatGPT-like clone")
 
 # Set OpenAI API key from Streamlit secrets
