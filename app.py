@@ -3,9 +3,6 @@ from openai import OpenAI
 
 openai_api_key = st.secrets["openai"]["OPENAI_API_KEY"]
 
-# Configurar la clave de API
-openai.api_key = openai_api_key
-
 st.title("ChatGPT-like clone")
 
 # Set OpenAI API key from Streamlit secrets
