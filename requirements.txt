@@ -1,0 +1,4 @@
+blinker
+protobuf
+streamlit
+openai
